@@ -23,12 +23,12 @@
 }
 
 .navBar a{
-    color:black;
+    color:white;
     text-decoration:none;
 }
 
 .navBar a:hover {
-    color:blue;
+    color:aqua;
     text-shadow:purple 1px 1px 5px;
     font-size: 25px;
 }
@@ -56,7 +56,7 @@
 
 .news{
     /*border:solid black;*/
-    color:blue;
+    color:white;
     text-shadow:purple 1px 1px 5px;
     width: 385px;
     height: 460px;
@@ -93,15 +93,35 @@
 }
 
 .daveListening{
+    /*border:solid black;*/
+    color:blue;
+    text-shadow:purple 1px 1px 5px;
+    width: 385px;
+    height: 460px;
+}
+
+.daveListening p{
+    font-size:20px;
+}
+
+#qouteFootNote{
+    font-size:12px;
+    font-style: italic;
+}
+
+.vibesHeader{
     display:flex;
     justify-content:center;
     align-items:center;
-    border:solid black;
     width: 385px;
 }
 
 .fa-music{
     padding-right:15px;
+}
+
+body{
+    background-color: black;
 }
 
 h1{
@@ -112,6 +132,36 @@ h1{
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+    font-size: 60px;
+    color: #71f4fc;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+span.Dave{
+    text-align:center;
+    padding-bottom:10px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-size: 60px;
+    color: white;
+}
+
+span.Vibes{
+    text-align:center;
+    padding-bottom:10px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-size: 60px;
+    color: #c228ad;  
 }
 
 h2{
@@ -129,3 +179,20 @@ h2{
     -o-user-select: none;
     user-select: none;
 }
+
+p{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}  
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #cc7ae6, 0 0 20px #fff, 0 0 30px #cc7ae6, 0 0 40px #cc7ae6, 0 0 50px #cc7ae6, 0 0 60px #cc7ae6, 0 0 70px #cc7ae6;
+    }
+    to {
+      text-shadow: 0 0 20px #004585, 0 0 30px #004585, 0 0 40px#004585, 0 0 50px #004585, 0 0 60px #004585, 0 0 70px #004585, 0 0 80px #004585;
+    }
+  }
